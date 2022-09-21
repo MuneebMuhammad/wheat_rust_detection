@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -J simsiam_training
+#SBATCH -N 1
+#SBATCH -o outputs/simsiam_training.out
+#SBATCH -e outputs/simsiam_training.err
+#SBATCH --gres=gpu:V100:1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=17000
+#SBATCH --mail-type=START,END
+#SBATCH --time=7-00:00:00
+
+echo "Executing on $HOSTNAME"
+date
+module load nvidia/latest
+module load cudnn/latest
+python3 wheat_train.py

@@ -1,0 +1,18 @@
+classes: 2
+zoom_factor: 8
+train_h: 257
+train_w: 257
+layers: 50
+shot: 3
+vgg: False
+ppm_scales: [60, 30, 15, 8]
+weight: /scratch/muneebm/weights/few_shot_lerning/PFENet/pascal_ckpt_50/split0_new.pth
+resized_val: True
+val_size: 257
+test_image_paths: /scratch/muneebm/few_shot_learning/test_data
+support_image_paths: /scratch/muneebm/few_shot_learning/support_data
+batch_size_val: 1
+
+
+
+

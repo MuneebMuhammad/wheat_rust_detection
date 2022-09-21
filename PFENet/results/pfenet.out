@@ -1,0 +1,52 @@
+Executing on gpu018
+Mon Sep  5 07:27:14 CEST 2022
+[60, 30, 15, 8]
+INFO: Using ResNet 50
+=> loading weight '/scratch/muneebm/weights/few_shot_lerning/PFENet/pascal_ckpt_50/split0_new.pth'
+=> loaded weight '/scratch/muneebm/weights/few_shot_lerning/PFENet/pascal_ckpt_50/split0_new.pth'
+test image: /scratch/muneebm/few_shot_learning/test_data/raw_test/147/80.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/92.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/103.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/158.JPG
+input_max:185.48638916015625, target_max:255, s_input_max:206.8203125, s_mask:255
+output_max:46.28022384643555
+target_shape:torch.Size([1, 257, 257])
+output_type:<class 'torch.Tensor'> output_shape:torch.Size([1, 2, 257, 257])
+input type:<class 'torch.Tensor'>, input_shape:torch.Size([3, 257, 257])
+test image: /scratch/muneebm/few_shot_learning/test_data/raw_test/147/81.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/92.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/158.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/91.JPG
+input_max:210.8875732421875, target_max:255, s_input_max:202.69171142578125, s_mask:255
+output_max:61.812896728515625
+target_shape:torch.Size([1, 257, 257])
+output_type:<class 'torch.Tensor'> output_shape:torch.Size([1, 2, 257, 257])
+input type:<class 'torch.Tensor'>, input_shape:torch.Size([3, 257, 257])
+test image: /scratch/muneebm/few_shot_learning/test_data/raw_test/147/26.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/91.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/103.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/158.JPG
+input_max:255.0, target_max:255, s_input_max:206.8203125, s_mask:255
+output_max:84.95323181152344
+target_shape:torch.Size([1, 257, 257])
+output_type:<class 'torch.Tensor'> output_shape:torch.Size([1, 2, 257, 257])
+input type:<class 'torch.Tensor'>, input_shape:torch.Size([3, 257, 257])
+test image: /scratch/muneebm/few_shot_learning/test_data/raw_test/147/70.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/103.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/91.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/92.JPG
+input_max:210.7503662109375, target_max:255, s_input_max:206.8203125, s_mask:255
+output_max:63.35816192626953
+target_shape:torch.Size([1, 257, 257])
+output_type:<class 'torch.Tensor'> output_shape:torch.Size([1, 2, 257, 257])
+input type:<class 'torch.Tensor'>, input_shape:torch.Size([3, 257, 257])
+test image: /scratch/muneebm/few_shot_learning/test_data/raw_test/147/25.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/103.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/92.JPG
+support image: /scratch/muneebm/few_shot_learning/support_data/raw_support/147/158.JPG
+input_max:225.47918701171875, target_max:255, s_input_max:206.8203125, s_mask:255
+output_max:58.58494567871094
+target_shape:torch.Size([1, 257, 257])
+output_type:<class 'torch.Tensor'> output_shape:torch.Size([1, 2, 257, 257])
+input type:<class 'torch.Tensor'>, input_shape:torch.Size([3, 257, 257])
+validation loss: 0.0
