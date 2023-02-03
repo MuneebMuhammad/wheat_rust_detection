@@ -1,6 +1,6 @@
 ### Segmentation of wheat rust disease with Unet. <br>
 
-To train a unet model with 4 channel(RGBT) input image run **unet.py**, 'T' is thresholding mask. It segments rust part in the image. <br>
+To train a unet model with 4 channel(RGBT) input image run **unet_thresh.py**, 'T' is thresholding mask. It segments rust part in the image. <br>
 
 ### Three step model testing
 
